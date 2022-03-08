@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Montserrat:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 body {
     margin: 0;
     padding: 0;
@@ -78,7 +80,6 @@ body {
     text-align: center;
     line-height: 56px;
 }
-
 .shop-slogan {
     color: #56593D;
     text-align: center;
@@ -88,7 +89,6 @@ body {
     margin-top: 0;
     font-size: 57px;
 }
-
 .shop-slogan__link {
     display: inline-block;
     border-bottom: 2px solid #56593D;
@@ -97,4 +97,84 @@ body {
     margin: 26px 34px;
     padding-bottom: 1px;
     font-size: 16px;
+}
+
+.collection-section {
+    background-color: #FFFFEF;
+    padding: 63px 32px 81px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.collection-section__header {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 80px;
+}
+.collection-section__container {
+    display: flex;
+    justify-content: space-between;
+}
+.collection-card__name {
+    font-size: 16px;
+}
+.collection-card__price {
+    font-size: 16px;
+}
+
+
+
+.content-section__essentials {
+    height: 732px;
+    margin-top: 23px;
+    padding: 0 118px;
+    border: 16px solid #FFFFEF;
+    box-sizing: border-box;
+    background-image: url(src/img/content-section/Essentials.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #56593D;
+}
+
+.essentials__header {
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 62px;
+}
+
+.essentials__text {
+    font-size: 50px;
+    margin-top: 0;
+}
+
+.content-card {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFEF;
+    padding: 64px 32px;
+    margin-bottom: 24px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #56593D;
+}
+.content-card__image {
+    width: 743px;
+}
+.content-card__text-part {
+    display: flex;
+    flex-direction: column;
+    width: 522px;
+    padding: 63px 130px 0;
+}
+.content-card__header {
+    font-size: 29px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.horizont {
+    width: 40px;
+}
+.content-card__paragraph {
+    font-family: 'Jost', 'Roboto', sans-serif;
 }
