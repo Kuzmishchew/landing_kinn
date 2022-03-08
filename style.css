@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrap {
+    width: 1360px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 94px;
+    border-top: 16px solid #FFFFEF;
+    margin-top: 6px;
+    background-image: url(src/img/header/logo.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.header .nav {
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+.header .control {
+    display: flex;
+    justify-content: space-between;
+    height: 32px;
+    list-style-type: none;
+    gap: 15px;
+}
+
+
+
