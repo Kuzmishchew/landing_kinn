@@ -185,6 +185,7 @@ body {
     flex-direction: column;
     align-items: center;
     background-color: #FFFFEF;
+    margin: 40px auto;
     padding: 63px 0;
     color: #56593D;
 }
@@ -246,6 +247,7 @@ body {
     padding: 0;
     list-style-type: none;
     font-size: 0;
+    transition: margin-left 250ms;
 }
 .gallery__item {
     display: inline-block;
@@ -269,4 +271,8 @@ body {
 .carousel-button:hover {
     cursor: pointer;
     background-color: #b0b396;
+}
+
+.footer {
+    
 }

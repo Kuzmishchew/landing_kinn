@@ -7,7 +7,7 @@ let i = 1;
 }
 
 let width = 320;
-let count = 3;
+let count = 0;
 
 let list = document.getElementById('carousel-container');
 let listElems = carousel.querySelector('li');
@@ -15,15 +15,20 @@ let listElems = carousel.querySelector('li');
 let position = 0;
 
 document.getElementById("prev").onclick = function() {
-  
-    position += width;
-    list.style.marginLeft = position + 'px';
+    if (count > 0) {
+        position += width;
+        list.style.marginLeft = position + 'px';
+        count--;
+    }
+    
 };
 
 document.getElementById("next").onclick = function() {
     
-    position -= width;
-
-    // position = Math.max(position, -width * (listElems.length - count));
-    list.style.marginLeft = position + 'px';
+    if (count < 3) {
+        position -= width;
+        list.style.marginLeft = position + 'px';
+        count++;
+    }
+    
 };
