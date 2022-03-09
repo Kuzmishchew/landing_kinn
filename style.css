@@ -18,24 +18,32 @@ body {
     border: none;
 }
 
+.page-link {
+    text-decoration: none;
+    color: inherit;
+}
+
 .header {
+    width: 100%;    
+    border-top: 16px solid #FFFFEF;
+}
+.header-main {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 94px;
-    border-top: 16px solid #FFFFEF;
     margin-top: 6px;
     background-image: url(src/img/header/logo.svg);
     background-position: center;
     background-repeat: no-repeat;
 }
-.header .nav {
+.header-main .nav {
     display: flex;
     gap: 40px;
     list-style-type: none;
     text-transform: uppercase;
 }
-.header .control {
+.header-main .control {
     display: flex;
     justify-content: space-between;
     height: 32px;
@@ -202,6 +210,7 @@ body {
 }
 
 .sign-up__button {
+    cursor: pointer;
     width: 144px;
     height: 22px;
 }
@@ -274,5 +283,52 @@ body {
 }
 
 .footer {
+    background-color: #717353;
+    width: 100%;
+    margin: 128px 0 0 0;
+}
+
+.footer-main {
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    padding: 64px 0 90px;
+}
+.footer-main .horizont {
+    margin-left: 0;
+}
+
+.footer-main ul {
+    margin-left: 0;
+    padding: 0;
     
+}
+.footer-main li {
+    list-style-type: none;
+}
+
+.footer-contact, 
+.footer-explore,
+.footer-help {
+    display: flex;
+    flex-direction: column;
+    width: 19%;
+}
+
+.footer-contact{
+   font-size: 16px;
+   line-height: 2em;
+   letter-spacing: 0.01em;
+}
+.footer-explore,
+.footer-help {
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 40px;
+    letter-spacing: 0.1em;
+}
+
+.footer-social ul li{
+    display: inline-block;
+    margin-left: 19px;
 }
