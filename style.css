@@ -211,3 +211,62 @@ body {
     border-bottom: 1px solid #56593D;
     margin-right: 16px;
 }
+
+.moments-section {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: #FFFFEF;
+   margin-top: 40px;
+   padding: 64px 0;
+}
+.moments-header {
+    margin: 0 auto 32px;
+    font-size: 25px;
+    font-weight: 400;
+    color:#56593D;
+}
+
+.moments__gallery-carousel {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 1300px;
+}
+
+.moments__gallery {
+    width: 960px;
+    height: 320px;
+    overflow: hidden;
+}
+.moments__gallery ul {
+    width: 2000px;
+    height: 320px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: 0;
+}
+.gallery__item {
+    display: inline-block;
+}
+.gallery__item-image {
+    display: block;
+    width: 320px;
+    height: 320px;
+}
+
+.carousel-button {
+    align-self: center;
+    background-color: #FFFFEF;
+    border: 1px solid #56593D;
+    font-size: 24px;
+    text-align: center;
+    vertical-align: middle;
+    color: #56593D;
+}
+
+.carousel-button:hover {
+    cursor: pointer;
+    background-color: #b0b396;
+}
